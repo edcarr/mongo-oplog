@@ -1,9 +1,3 @@
-'use strict';
-
-/**
- * Module dependencies.
- */
-
 var should = require('should');
 var MongoClient = require('mongodb').MongoClient;
 var MongoOplog = require('../src/index').default;

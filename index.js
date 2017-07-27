@@ -1,3 +1,3 @@
-exports.default = require('./lib').default
+exports.default = require("./build").default;
 
-module.exports = exports.default
+module.exports = exports.default;

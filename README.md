@@ -38,7 +38,7 @@ $ npm install mongo-oplog
 
 ``` javascript
 import MongoOplog from 'mongo-oplog'
-const oplog = MongoOplog('mongodb://127.0.0.1:27017/local', { ns: 'test.posts' })
+const oplog = MongoOplog('mongodb://127.0.0.1:27017/local', { ns: ['test.posts'] })
 
 oplog.tail();
 
